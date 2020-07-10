@@ -1,0 +1,9 @@
+.heading,.input,.button{
+    text-align: center;
+    color: brown;
+    margin-top: 30px;
+}
+
+body{
+    background-color: black;
+}

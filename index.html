@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     
+    <div class=heading>
+        <h1>Stop Watch</h1>
+    </div>
+
+    <div class="input">
+        <input id="min" type="text">
+        <input id="sec"  type="text" >
+        <input id="msec"  type="text">
+    </div>
+
+    <div class="button">
+        <button id="stopBtn" onclick="start(),this.disabled = true" >Start</button>
+        <button  onclick="stop()">Stop</button>
+        <button onclick="r()">Reset</button>
+    </div>
+
+
+    <script src=app.js></script>
+</body>
+</html>
